@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		F6081117263D284F00C31F8C /* GitXcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GitXcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		F608111A263D284F00C31F8C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F6081126263D2E4D00C31F8C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +42,7 @@
 		F608110E263D284F00C31F8C = {
 			isa = PBXGroup;
 			children = (
+				F6081126263D2E4D00C31F8C /* .gitignore */,
 				F6081119263D284F00C31F8C /* GitXcode */,
 				F6081118263D284F00C31F8C /* Products */,
 			);
@@ -247,6 +249,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V5UATT9S8J;
 				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -258,6 +261,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V5UATT9S8J;
 				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
